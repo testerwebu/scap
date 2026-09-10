@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B3C4D5E6F70010000000001 /* ScapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C4D5E6F70010000000101 /* ScapApp.swift */; };
+		2B3C4D5E6F70010000000002 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C4D5E6F70010000000102 /* AppState.swift */; };
+		2B3C4D5E6F70010000000003 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C4D5E6F70010000000103 /* SettingsStore.swift */; };
+		2B3C4D5E6F70010000000004 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C4D5E6F70010000000104 /* LibraryView.swift */; };
+		2B3C4D5E6F70010000000005 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C4D5E6F70010000000105 /* SettingsView.swift */; };
+		2B3C4D5E6F70010000000006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B3C4D5E6F70010000000106 /* Assets.xcassets */; };
+		2B3C4D5E6F70010000000007 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C4D5E6F70010000000107 /* MenuBarView.swift */; };
+		2B3C4D5E6F70010000000008 /* KeyboardShortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C4D5E6F70010000000108 /* KeyboardShortcut.swift */; };
+		2B3C4D5E6F70010000000009 /* HotKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C4D5E6F70010000000109 /* HotKeyManager.swift */; };
+		2B3C4D5E6F70010000000010 /* CaptureMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C4D5E6F70010000000110 /* CaptureMode.swift */; };
+		2B3C4D5E6F70010000000011 /* CapturePermissionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C4D5E6F70010000000111 /* CapturePermissionService.swift */; };
+		2B3C4D5E6F70010000000012 /* AreaCaptureOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C4D5E6F70010000000112 /* AreaCaptureOverlay.swift */; };
+		2B3C4D5E6F70010000000013 /* ScreenCaptureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C4D5E6F70010000000113 /* ScreenCaptureService.swift */; };
+		2B3C4D5E6F70010000000014 /* CaptureCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C4D5E6F70010000000114 /* CaptureCoordinator.swift */; };
+		2B3C4D5E6F70010000000015 /* TemporaryCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C4D5E6F70010000000115 /* TemporaryCapture.swift */; };
+		2B3C4D5E6F70010000000016 /* AnnotationEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C4D5E6F70010000000116 /* AnnotationEditorView.swift */; };
+		2B3C4D5E6F70010000000017 /* BoardEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C4D5E6F70010000000117 /* BoardEditorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B3C4D5E6F70010000000100 /* Scap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B3C4D5E6F70010000000101 /* ScapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScapApp.swift; sourceTree = "<group>"; };
+		2B3C4D5E6F70010000000102 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		2B3C4D5E6F70010000000103 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		2B3C4D5E6F70010000000104 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		2B3C4D5E6F70010000000105 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2B3C4D5E6F70010000000106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B3C4D5E6F70010000000107 /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		2B3C4D5E6F70010000000108 /* KeyboardShortcut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardShortcut.swift; sourceTree = "<group>"; };
+		2B3C4D5E6F70010000000109 /* HotKeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeyManager.swift; sourceTree = "<group>"; };
+		2B3C4D5E6F70010000000110 /* CaptureMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureMode.swift; sourceTree = "<group>"; };
+		2B3C4D5E6F70010000000111 /* CapturePermissionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapturePermissionService.swift; sourceTree = "<group>"; };
+		2B3C4D5E6F70010000000112 /* AreaCaptureOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCaptureOverlay.swift; sourceTree = "<group>"; };
+		2B3C4D5E6F70010000000113 /* ScreenCaptureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCaptureService.swift; sourceTree = "<group>"; };
+		2B3C4D5E6F70010000000114 /* CaptureCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureCoordinator.swift; sourceTree = "<group>"; };
+		2B3C4D5E6F70010000000115 /* TemporaryCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemporaryCapture.swift; sourceTree = "<group>"; };
+		2B3C4D5E6F70010000000116 /* AnnotationEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationEditorView.swift; sourceTree = "<group>"; };
+		2B3C4D5E6F70010000000117 /* BoardEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardEditorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B3C4D5E6F70010000000201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B3C4D5E6F70010000000300 = {
+			isa = PBXGroup;
+			children = (
+				2B3C4D5E6F70010000000301 /* Scap */,
+				2B3C4D5E6F70010000000302 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B3C4D5E6F70010000000301 /* Scap */ = {
+			isa = PBXGroup;
+			children = (
+				2B3C4D5E6F70010000000303 /* App */,
+				2B3C4D5E6F70010000000308 /* Capture */,
+				2B3C4D5E6F70010000000309 /* Screens */,
+				2B3C4D5E6F70010000000310 /* Storage */,
+				2B3C4D5E6F70010000000304 /* UI */,
+				2B3C4D5E6F70010000000313 /* Services */,
+				2B3C4D5E6F70010000000307 /* Resources */,
+			);
+			path = Scap;
+			sourceTree = "<group>";
+		};
+		2B3C4D5E6F70010000000302 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B3C4D5E6F70010000000100 /* Scap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B3C4D5E6F70010000000303 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2B3C4D5E6F70010000000101 /* ScapApp.swift */,
+				2B3C4D5E6F70010000000102 /* AppState.swift */,
+				2B3C4D5E6F70010000000103 /* SettingsStore.swift */,
+				2B3C4D5E6F70010000000109 /* HotKeyManager.swift */,
+				2B3C4D5E6F70010000000108 /* KeyboardShortcut.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2B3C4D5E6F70010000000304 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2B3C4D5E6F70010000000305 /* MenuBar */,
+				2B3C4D5E6F70010000000314 /* Library */,
+				2B3C4D5E6F70010000000306 /* Settings */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2B3C4D5E6F70010000000305 /* MenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				2B3C4D5E6F70010000000107 /* MenuBarView.swift */,
+			);
+			path = MenuBar;
+			sourceTree = "<group>";
+		};
+		2B3C4D5E6F70010000000306 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2B3C4D5E6F70010000000105 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		2B3C4D5E6F70010000000307 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B3C4D5E6F70010000000106 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2B3C4D5E6F70010000000308 /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				2B3C4D5E6F70010000000110 /* CaptureMode.swift */,
+				2B3C4D5E6F70010000000111 /* CapturePermissionService.swift */,
+				2B3C4D5E6F70010000000112 /* AreaCaptureOverlay.swift */,
+				2B3C4D5E6F70010000000113 /* ScreenCaptureService.swift */,
+				2B3C4D5E6F70010000000114 /* CaptureCoordinator.swift */,
+				2B3C4D5E6F70010000000115 /* TemporaryCapture.swift */,
+			);
+			path = Capture;
+			sourceTree = "<group>";
+		};
+		2B3C4D5E6F70010000000309 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2B3C4D5E6F70010000000310 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		2B3C4D5E6F70010000000313 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2B3C4D5E6F70010000000314 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				2B3C4D5E6F70010000000104 /* LibraryView.swift */,
+				2B3C4D5E6F70010000000116 /* AnnotationEditorView.swift */,
+				2B3C4D5E6F70010000000117 /* BoardEditorView.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B3C4D5E6F70010000000400 /* Scap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B3C4D5E6F70010000000701 /* Build configuration list for PBXNativeTarget "Scap" */;
+			buildPhases = (
+				2B3C4D5E6F70010000000500 /* Sources */,
+				2B3C4D5E6F70010000000201 /* Frameworks */,
+				2B3C4D5E6F70010000000501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scap;
+			productName = Scap;
+			productReference = 2B3C4D5E6F70010000000100 /* Scap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B3C4D5E6F70010000000600 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2B3C4D5E6F70010000000400 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 2B3C4D5E6F70010000000700 /* Build configuration list for PBXProject "Scap" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B3C4D5E6F70010000000300;
+			productRefGroup = 2B3C4D5E6F70010000000302 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B3C4D5E6F70010000000400 /* Scap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B3C4D5E6F70010000000501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3C4D5E6F70010000000006 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B3C4D5E6F70010000000500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3C4D5E6F70010000000001 /* ScapApp.swift in Sources */,
+				2B3C4D5E6F70010000000002 /* AppState.swift in Sources */,
+				2B3C4D5E6F70010000000003 /* SettingsStore.swift in Sources */,
+				2B3C4D5E6F70010000000008 /* KeyboardShortcut.swift in Sources */,
+				2B3C4D5E6F70010000000009 /* HotKeyManager.swift in Sources */,
+				2B3C4D5E6F70010000000010 /* CaptureMode.swift in Sources */,
+				2B3C4D5E6F70010000000011 /* CapturePermissionService.swift in Sources */,
+				2B3C4D5E6F70010000000012 /* AreaCaptureOverlay.swift in Sources */,
+				2B3C4D5E6F70010000000013 /* ScreenCaptureService.swift in Sources */,
+				2B3C4D5E6F70010000000014 /* CaptureCoordinator.swift in Sources */,
+				2B3C4D5E6F70010000000015 /* TemporaryCapture.swift in Sources */,
+				2B3C4D5E6F70010000000007 /* MenuBarView.swift in Sources */,
+				2B3C4D5E6F70010000000004 /* LibraryView.swift in Sources */,
+				2B3C4D5E6F70010000000016 /* AnnotationEditorView.swift in Sources */,
+				2B3C4D5E6F70010000000017 /* BoardEditorView.swift in Sources */,
+				2B3C4D5E6F70010000000005 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B3C4D5E6F70010000000800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B3C4D5E6F70010000000801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2B3C4D5E6F70010000000802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Scap";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scap.Scap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2B3C4D5E6F70010000000803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Scap";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scap.Scap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B3C4D5E6F70010000000700 /* Build configuration list for PBXProject "Scap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3C4D5E6F70010000000800 /* Debug */,
+				2B3C4D5E6F70010000000801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B3C4D5E6F70010000000701 /* Build configuration list for PBXNativeTarget "Scap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3C4D5E6F70010000000802 /* Debug */,
+				2B3C4D5E6F70010000000803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B3C4D5E6F70010000000600 /* Project object */;
+}
