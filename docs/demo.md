@@ -2,7 +2,7 @@
 
 Browse screenshots, search text inside images, organize your library and annotate a copy.
 
-![Step-by-step product demo](media/demo.gif)
+https://github.com/user-attachments/assets/dd2a53f1-c76a-42a1-af79-f2c7798b5c13
 
 ## 1. Browse a watched folder
 
@@ -36,7 +36,7 @@ Save Copy creates an annotated image alongside the original in the library.
 
 ## About these captures
 
-Captured on 2026-09-14 from the native macOS app. Each GIF frame uses a real screenshot, with explanatory captions outside the app window. It is a step-by-step walkthrough, not a continuous screen recording.
+Captured on 2026-09-14 from the native macOS app. The video uses real UI captures with animated cursor movement, click highlights, focused zooms and paced transitions. It is an edited product walkthrough, not an uninterrupted screen recording. The static gallery below the video shows the original screenshot walkthrough. [Encoding and playback details](video.md).
 
 Source snapshot: [`34e87ca`](https://github.com/testerwebu/scap/tree/34e87ca2b75d737365010b67a09023a05281098d).
 
