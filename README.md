@@ -8,9 +8,9 @@ It is built for people who make screenshots constantly, then need a faster way t
 
 Browse screenshots, search text inside images, organize your library and annotate a copy.
 
-![Scap step-by-step demo](docs/media/demo.gif)
+https://github.com/user-attachments/assets/dd2a53f1-c76a-42a1-af79-f2c7798b5c13
 
-[View the screenshots and walkthrough](docs/demo.md). Real native UI with fictional sample data; the GIF is a sequence of captured screenshots. This is an early prototype, not a production-release announcement.
+[View the screenshots and walkthrough](docs/demo.md). Full HD video at 60 fps, with smooth cursor movement and focused zooms. Real native UI with fictional sample data; motion and timing are edited for clarity. [Video details](docs/video.md).
 
 ## Status
 
