@@ -4,6 +4,14 @@ Scap is a native macOS app for keeping screenshots and screen recordings in one 
 
 It is built for people who make screenshots constantly, then need a faster way to find, organize, annotate, combine or clean them up without sending private visual material to a cloud service.
 
+## See It in Action
+
+Browse screenshots, search text inside images, organize your library and annotate a copy.
+
+![Scap step-by-step demo](docs/media/demo.gif)
+
+[View the screenshots and walkthrough](docs/demo.md). Real native UI with fictional sample data; the GIF is a sequence of captured screenshots. This is an early prototype, not a production-release announcement.
+
 ## Status
 
 Scap is an early macOS prototype. It builds locally and is suitable to share privately for product, design and technical review.
